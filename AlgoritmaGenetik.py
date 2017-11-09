@@ -123,18 +123,15 @@ while stop == False:
         print "Generasi ke - %d: %s dengan nilai fitness : %d" % (generasi, solusi, fitness[0])
         break
 
-    # Jika nilai fitness belum 0, maka generate populasi baru lagi dan nilai
-    # fitness baru
+    # Jika nilai fitness belum 0, maka generate populasi baru lagi dan nilai fitness baru
     generasi_baru = []
     fitness_baru = []
 
-    # Lakukan teknik seleksi gen, sebanyak 50% populasi pertama akan bertahan
-    # ke generasi selanjutnya
+    # Lakukan teknik seleksi gen, sebanyak 50% populasi pertama akan bertahan ke generasi selanjutnya
     seleksi = (50*banyak_populasi)/100
     generasi_baru.extend(populasi[:seleksi])
     
-    # Lakukan teknik crossover, sebanyak 50% populasi pertama akan disilangkan
-    # untuk memproduksi generasi baru
+    # Lakukan teknik crossover, sebanyak 50% populasi pertama akan disilangkan untuk memproduksi generasi baru
     s = (50*banyak_populasi)/100
     mate_rate = (50*banyak_populasi)/100
     for i in range(s):
