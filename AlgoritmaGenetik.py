@@ -2,8 +2,8 @@
 Optimisasi algoritma pencarian menggunakan
 Algoritma Genetik dengan masukan(input) berupa huruf abjad
 
-Github Profile Account : https://github.com/Gaxriel/
-Repository Link : https://github.com/Gaxriel/Algoritma-Genetik/
+Github Profile Account : https://github.com/gabrielronaldo77/
+Repository Link : https://github.com/gabrielronaldo77/Algoritma-Genetik/
 """
 import random
 
